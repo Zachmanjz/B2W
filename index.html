@@ -9,6 +9,16 @@
     <link rel="icon" href="assets/img/favicon.ico">
     <title>Bootstrap to Wordpress</title>
 
+        <!-- Bootstrap-->
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- FontAwesome Icons -->
+    <link href="assets/css/fonts/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    
     <!-- Bootstrap core CSS -->
 	<link href="assets/css/bootstrap.min.css" rel="stylesheet">
 	
@@ -30,7 +40,35 @@
 <body>
 
     <!-- HEADER-->
-    <header>
+    <header class="site-header" role="banner">
+
+        <!-- NAVBAR -->
+        <div class="navbar-wrapper">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">
+                    <div class="button" class="navbar-toggle" >
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="sr-only"> Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="/"><img src="assets/img/logo.png" alt="Bootstrap to WordPress"></a>
+
+                    </div> <!-- navbar-header -->
+                    <div class="navbar-collapse collapse">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="/"> Home</a></li>
+                                <li><a href="blog.html">Blog</a>/li>
+                                <li><a href="resources.html">Resources</a>/li>
+                                <li><a href="contact.html">Contact</a>/li>
+                            </ul> <!-- nav -->
+                    </div> <!-- navbar-collapse -->
+
+                </div> <!-- container -->
+            </div> <!-- NAVBAR -->
+
+        </div> <!-- navbar-wrapper -->
 
     </header>
 
@@ -102,8 +140,12 @@
 
   <!-- MODAL -->
     <div>
-        
+
     </div>
-   
-</body>
+
+     <!-- BOOTSTRAP CORE JAVASCRIPT -->
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+     <script src=assets/js/jquery-3.6.0/jquery.min.js"></script>
+     <script src="assets/js/main.js"></script>   
+    </body>
 </html>
